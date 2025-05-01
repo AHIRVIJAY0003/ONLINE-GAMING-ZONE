@@ -1,0 +1,90 @@
+/* fixed layout : fixed layout is always width in px and height in px
+Note : fixed layout not much help to create responsive content
+*/
+* 
+{
+margin: 0;
+padding: 0;    
+font-family: cursive;
+}
+body 
+{
+background-color: aliceblue;    
+overflow-x: hidden;
+}
+#header
+{
+width: 1370px;
+height: 120px;
+background-color: rgb(61, 184, 255);
+top: 0;
+position: sticky;
+border-bottom: solid 2px rgb(0, 59, 78);
+}
+
+#navbar
+{
+
+width: 1300px;
+height: 80px;
+background-color:  rgb(61, 184, 255);
+margin-top: 10px;
+margin-left: 35px;
+}
+#slider
+{
+
+width: 1300px;
+height: 300px;
+background-color:  rgb(61, 184, 255);
+margin-top: 10px;
+margin-left: 35px;    
+}
+#slider img 
+{
+width: 1300px;
+height: 300px;    
+}
+#content
+{
+
+width: 1300px;
+height: auto;
+margin-top: 10px;
+margin-left: 35px;       
+}
+.product-grid
+{
+width: 1300px;
+height: auto;
+margin-top: 10px;     
+display: flex;
+flex-direction: row;
+}
+.product-grid1
+{
+width: 900px;
+height: 200px;
+background-color: rgb(61, 184, 255);
+margin-top: 40px;
+}
+.product-adv1
+{
+width: 300px;
+height: 280px;
+background-color: white;
+margin-left: 50px;
+}
+.product-adv1 img
+{
+width: 300px;
+height: 280px;
+}
+
+#footer 
+{
+width: 1370px;
+height: 250px;
+background-color: black;
+margin-top: 12px;    
+}
